@@ -43,6 +43,23 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <mj-section background-url="http://www.ericposas.com/images/buttonstrip.jpg">
+      <mj-column width="500px">
+        <mj-table>
+          <!-- <tr style="border:1px solid; text-align:center;"> -->
+          <tr style="text-align:center;">
+            <td style="padding-left:12px; font-size:17px; color:#fff;">
+              Rewards Card
+            </td>
+            <td style="line-height:12px; text-align:left; font-size:11px; padding-left:14px;">
+              <div>Earn Connection Points™ for gift cards, merchandise</div>
+              <div>or blackout-date-free travel on any airline. Plus, no</div>
+              <div>foreign transaction fees.</div>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
 
       <!-- <mj-column width="" padding-top="7px">
         <mj-text align="center" color="#fff" font-size="17px" font-family="Arial">
@@ -60,7 +77,7 @@
 
     <!-- Legal section -->
     <mj-section>
-      <mj-column>
+      <mj-column width="600px">
         <mj-table>
           <tr style="border:1px solid;text-align:center;padding: 15px 0;">
             <td style="padding: 0 15px 0 0; border-right:1px solid;">Year</td>
