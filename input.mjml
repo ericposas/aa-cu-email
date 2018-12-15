@@ -16,7 +16,7 @@
 
     <!-- Image Header -->
     <mj-section background-url="http://www.ericposas.com/images/main.jpg">
-      <mj-column width="580px" padding-top="360px">
+      <mj-column width="580px" padding-top="360px" >
         <mj-text align="left" color="#000" font-size="15px" font-family="Arial">
           Open a new card and a world of opportunity.
           You’re pre-approved to select from American Airlines
@@ -28,31 +28,35 @@
     </mj-section>
 
     <mj-section background-url="http://www.ericposas.com/images/buttonstrip.jpg">
-      <mj-column width="180px" padding-top="7px">
-        <mj-text align="right" color="#fff" font-size="17px" font-family="Arial">
+      <mj-column width="500px">
+        <mj-table>
+          <!-- <tr style="border:1px solid; text-align:center;"> -->
+          <tr style="text-align:center;">
+            <td style="padding-left:10px; font-size:17px; color:#fff;">
+              Low Rate Card
+            </td>
+            <td style="line-height:15px; text-align:left; padding-left:14px;">
+              <div>Features an APR as low as <span>9.00%</span>.</div>
+              <div>Eight points lower vs. the national average.†</div>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+      <!-- <mj-column width="" padding-top="7px">
+        <mj-text align="center" color="#fff" font-size="17px" font-family="Arial">
           Low Rate Card
         </mj-text>
       </mj-column>
-      <mj-column width="320px">
+      <mj-column width="">
         <mj-text align="left">
           Features an APR as low as 9.00%.<br>
           Eight points lower vs. the national average.†
         </mj-text>
       </mj-column>
-    </mj-section>
+    </mj-section> -->
 
-    <!-- Icons -->
-    <mj-section background-color="#fbfbfb">
-      <mj-column>
-        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0l.png" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x01.png" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
-      </mj-column>
-    </mj-section>
 
     <!-- Legal section -->
     <mj-section>
