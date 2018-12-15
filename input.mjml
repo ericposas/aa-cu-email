@@ -6,126 +6,39 @@
     <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Ubuntu" />
     <mj-attributes>
       <mj-text color="#626262"/>
-      <mj-section background-color="#f0f0f0"/>
+      <!-- <mj-section background-color="#f0f0f0"/> -->
       <mj-class name="red" background-color="red" font-weight="bold" />
     </mj-attributes>
     <mj-title>My MJML Tester E-mail</mj-title>
   </mj-head>
 
   <mj-body>
-    <!-- Company Header -->
-    <mj-section background-color="#f0f0f0">
-      <mj-column>
-        <mj-text font-size="24px"
-                 color="#626262"
-                 font-family="Ubuntu">
-          My Company
-        </mj-text>
-    </mj-section>
 
     <!-- Image Header -->
-    <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
-                background-size="cover"
-                background-repeat="no-repeat">
-      <mj-column>
-        <mj-text align="center"
-                 color="#fff"
-                 font-size="40px"
-                 font-family="Helvetica Neue">
-          Slogan here
+    <mj-section background-url="http://www.ericposas.com/images/main.jpg">
+      <mj-column width="580px" padding-top="360px">
+        <mj-text align="left" color="#000" font-size="15px" font-family="Arial">
+          Open a new card and a world of opportunity.
+          You’re pre-approved to select from American Airlines
+          Federal Credit Union’s two best Visa® Platinum Credit
+          Cards with no balance transfer fees.* From extra rewards
+          to a low APR,** we’ve got<br> you covered.
         </mj-text>
-
-    </mj-section>
-
-    <!-- Introduction Text -->
-    <mj-section background-color="#fafafa">
-      <mj-column>
-        <mj-text align="center"
-                 font-style="italic"
-                 font-size="20px"
-                 font-family="Helvetica Neue"
-                 color="#626262">
-          My Awesome Text
-        </mj-text>
-        <mj-divider border-width="2px" border-color="#000"/>
-        <mj-button mj-class="red"
-                   border="2px solid darkred"
-                   href="https://google.com/"
-                   target="_blank"
-                   >
-          Hello There!
-        </mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-hero
-        mode="fixed-height"
-        height="360px"
-        background-width="600px"
-        background-height="469px"
-        background-url="https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
-        background-color="#2a3448"
-        padding="100px 0px"
-    >
-    <!-- To add content like mj-image, mj-text, mj-button ... use the mj-hero-content component -->
-      <mj-text
-        padding="20px"
-        color="#ffffff"
-        font-family="Helvetica"
-        align="center"
-        font-size="45px"
-        line-height="45px"
-        font-weight="900">
-        GO TO SPACE
-      </mj-text>
-      <mj-button href="https://mjml.io/" align="center">
-        ORDER YOUR TICKET NOW
-      </mj-button>
-    </mj-hero>
-
-
-    <!-- 2 columns section -->
-    <mj-section>
-
-      <!-- <mj-group> Use the mj group tag to disable the automatic, responsive column realignment -->
-
-      <!-- Left image -->
-        <mj-column>
-          <mj-image
-              width="240px"
-              src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg"
-              border="2px solid #ccc"
-              >
-          </mj-column>
-          <mj-column>
-            <mj-text font-style="italic"
-                 font-size="20px"
-                 font-family="Helvetica Neue">
-                 Find amazing places
-            </mj-text>
-            <mj-text color="#525252">
-              Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Proin rutrum enim eget
-              magna efficitur, eu semper augue semper.
-              Aliquam erat volutpat.
-            </mj-text>
-            <mj-image src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" />
-            <mj-text>
-              Cras id dui lectus.
-              Vestibulum sed finibus lectus.
-            </mj-text>
-            <mj-spacer height="40px"/>
-          </mj-column>
-
-          <!-- 3rd test column -->
-          <!-- <mj-column>
-            <mj-text>
-              Another one..
-            </mj-text>
-          </mj-column> -->
-
-        <!-- </mj-group> -->
-
+    <mj-section background-url="http://www.ericposas.com/images/buttonstrip.jpg">
+      <mj-column width="180px" padding-top="7px">
+        <mj-text align="right" color="#fff" font-size="17px" font-family="Arial">
+          Low Rate Card
+        </mj-text>
+      </mj-column>
+      <mj-column width="320px">
+        <mj-text align="left">
+          Features an APR as low as 9.00%.<br>
+          Eight points lower vs. the national average.†
+        </mj-text>
+      </mj-column>
     </mj-section>
 
     <!-- Icons -->
@@ -138,15 +51,6 @@
       </mj-column>
       <mj-column>
         <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
-      </mj-column>
-    </mj-section>
-
-    <!-- Social icons -->
-    <mj-section background-color="#e7e7e7">
-      <mj-column>
-        <mj-social>
-          <mj-social-element name="facebook"/>
-        </mj-social>
       </mj-column>
     </mj-section>
 
