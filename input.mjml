@@ -46,15 +46,59 @@
     <mj-section background-url="http://www.ericposas.com/images/buttonstrip.jpg">
       <mj-column width="500px">
         <mj-table>
-          <!-- <tr style="border:1px solid; text-align:center;"> -->
           <tr style="text-align:center;">
-            <td style="padding-left:12px; font-size:17px; color:#fff;">
+            <td style="padding-bottom: 4px; padding-left:12px; font-size:17px; color:#fff;">
               Rewards Card
             </td>
             <td style="line-height:12px; text-align:left; font-size:11px; padding-left:14px;">
               <div>Earn Connection Points™ for gift cards, merchandise</div>
               <div>or blackout-date-free travel on any airline. Plus, no</div>
               <div>foreign transaction fees.</div>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="http://www.ericposas.com/images/buttonstripend.jpg">
+      <mj-column width="500px">
+        <mj-table>
+          <tr style="text-align:center;">
+            <td style="padding-top: 2px; padding-left:50px; font-size:17px; color:#fff;">
+              Both
+            </td>
+            <td style="line-height:12px; text-align:left; font-size:11px; padding-left:55px; padding-top: 2px;">
+              <div>No balance transfer fees. No annual fee. The added</div>
+              <div>convenience of mobile wallet and Visa Checkout.®</div>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="http://www.ericposas.com/images/bottom.jpg">
+      <mj-column width="500px" padding-top="55px">
+        <mj-table>
+          <tr style="text-align:center; border:1px solid #000">
+            <td style="padding-top: 20px; text-align: left; padding-left:250px; font-size:11px; line-height: 12px; color:#000;">
+              <a href="https://www.google.com/" target="_blank" style="text-decoration:none; color:black;">
+                <div>
+                  Click here to Log in at<br>
+                  AACreditUnion.org and<br>
+                  select “Apply for a Loan”
+                </div>
+              </a>
+            </td>
+            </a>
+          </tr>
+          <tr style="border:1px solid #000">
+            <td style="padding-top:32px; padding-left:180px; text-align:left; font-size:9px;">
+              <a href="tel:+18005330035" style="text-decoration:none;color:#000;">
+                <div>
+                  Call (800) 533-0035
+                </div>
+              </a>
+            </td>
+            <td>
+              Stop by a branch near you
             </td>
           </tr>
         </mj-table>
