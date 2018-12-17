@@ -18,7 +18,7 @@
     <mj-title>My MJML Tester E-mail</mj-title>
   </mj-head>
   <mj-body background-color="#fff">
-    <mj-wrapper background-size="600px" background-url="http://www.ericposas.com/images/whole-hd.jpg">
+    <mj-wrapper background-size="600px" background-url="http://www.ericposas.com/images/whole.jpg">
       <mj-section>
         <mj-column width="600px" padding-top="360px" padding-left="10px" >
           <mj-table>
