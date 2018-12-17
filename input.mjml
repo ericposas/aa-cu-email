@@ -17,94 +17,30 @@
     </mj-style>
     <mj-title>My MJML Tester E-mail</mj-title>
   </mj-head>
-  <mj-body background-color="#fff">
-    <mj-section background-url="http://www.ericposas.com/images/main.jpg">
-      <mj-column width="600px" padding-top="360px" padding-left="10px" >
-        <mj-text align="left" color="#000" font-size="15px" font-family="Arial">
-          Open a new card and a world of opportunity.
-          You’re pre-approved to select from American Airlines
-          Federal Credit Union’s two best Visa® Platinum Credit
-          Cards with no balance transfer fees.* From extra rewards
-          to a low APR,** we’ve got<br> you covered.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-url="http://www.ericposas.com/images/buttonstrip.jpg" background-size="600px">
-      <mj-column width="600px">
-        <mj-table>
-          <tr style="text-align:center;">
-            <td style="padding-left:42px; font-size:17px; color:#fff;">
-              Low Rate Card
-            </td>
-            <td style="line-height:15px; text-align:left; padding-left:0px;">
-              <div>Features an APR as low as <span>9.00%</span>.</div>
-              <div>Eight points lower vs. the national average.†</div>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <mj-section background-url="http://www.ericposas.com/images/buttonstrip.jpg" background-size="600px">
-      <mj-column width="600px">
-        <mj-table>
-          <tr style="text-align:center;">
-            <td style="padding-bottom: 4px; padding-left:46px; font-size:17px; color:#fff;">
-              Rewards Card
-            </td>
-            <td style="line-height:12px; text-align:left; font-size:11px; padding-left:2px;">
-              <div>Earn Connection Points™ for gift cards, merchandise</div>
-              <div>or blackout-date-free travel on any airline. Plus, no</div>
-              <div>foreign transaction fees.</div>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <mj-section background-url="http://www.ericposas.com/images/buttonstripend.jpg" background-size="600px">
-      <mj-column width="600px">
-        <mj-table>
-          <tr style="text-align:center;">
-            <td style="padding-top: 2px; padding-left:88px; font-size:17px; color:#fff;">
-              Both
-            </td>
-            <td style="line-height:12px; text-align:left; font-size:11px; padding-left:40px; padding-top: 2px;">
-              <div>No balance transfer fees. No annual fee. The added</div>
-              <div>convenience of mobile wallet and Visa Checkout.®</div>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <mj-section background-url="http://www.ericposas.com/images/bottom.jpg" background-size="600px">
-      <mj-column width="600px" padding-top="55px">
-        <mj-table>
-          <tr style="text-align:center; margin:0; padding:0;">
-            <td style="padding-top: 20px; text-align: left; padding-left:297px; font-size:9px; line-height: 12px; color:#000;">
-              <a href="https://www.google.com/" target="_blank" style="text-decoration:none; color:black;">
-                <div>
-                  Click here to Log in at<br>
-                  AACreditUnion.org and<br>
-                  select “Apply for a Loan”
-                </div>
-              </a>
-            </td>
-            </a>
-          </tr>
-          <tr style="margin:0;padding:0">
-            <td style="padding-top:32px; padding-left:230px; text-align:left; font-size:9px;">
-              <a href="tel:+18005330035" style="text-decoration:none;color:#000;">
-                <div>
-                  Call (800) 533-0035
-                </div>
-              </a>
-            </td>
-            <td style="padding-top:30px; padding-right:22px; text-align:left; font-size:11px;">
-              Stop by a branch near you
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
+  <mj-body background-color="#ccc">
+    <mj-wrapper background-url="http://www.ericposas.com/images/whole.jpg">
+      <mj-section>
+        <mj-column width="600px" padding-top="360px" padding-left="10px" >
+          <mj-table>
+            <tr>
+              <td colspan=3 style="font-size:14px; line-height:16px; padding-left:8px;">
+                Open a new card and a world of opportunity. You’re pre-approved to select from <br>American Airlines Federal Credit Union’s two best Visa® Platinum Credit Cards<br> with no balance transfer fees.* From extra rewards to a low APR,** we’ve got<br>
+                you covered.
+              </td>
+            </tr>
+            <tr>
+              <td colspan=1 style="color:#fff;font-size:16px;width:120px;padding-top:50px;padding-left:60px;">
+                Low Rate Card
+              </td>
+              <td colspan=2 style="padding-top:50px;padding-left:10px;line-height:14px;">
+                Features an APR as low as 9.00%.<br>
+                Eight points lower vs. the national average.†
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
 
     <!-- Legal section -->
     <mj-section background-color="#fff">
