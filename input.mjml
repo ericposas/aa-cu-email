@@ -15,7 +15,7 @@
         border-collapse: collapse;
       }
     </mj-style>
-    <mj-title>My MJML Tester E-mail</mj-title>
+    <mj-title>AA Credit Union</mj-title>
   </mj-head>
   <mj-body background-color="#fff">
     <mj-wrapper background-size="600px" background-url="http://www.ericposas.com/images/whole.jpg">
@@ -84,7 +84,7 @@
           <tr style="font-size:12px">
             <td colspan=3 style="padding-right:10px;">
               <div>
-                Please do not reply to this email. To contact the Credit Union, visit our secure <a href="#">contact page.</a>
+                Please do not reply to this email. To contact the Credit Union, visit our secure <a href="https://www.aacreditunion.org/contact-us.aspx" target="_blank" style="color:#0083ca">contact page.</a>
               </div>
             </td>
           </tr>
