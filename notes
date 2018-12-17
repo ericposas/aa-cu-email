@@ -1,6 +1,0 @@
-after mjml output file, edit the following: 
-
-- line breaks <br> are look "off" when viewing in outlook 
-
-- get the 4th to the last main div, and add:
-    "margin-top: -1.5px;"

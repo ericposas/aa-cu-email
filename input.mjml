@@ -18,7 +18,7 @@
     <mj-title>My MJML Tester E-mail</mj-title>
   </mj-head>
   <mj-body background-color="#ccc">
-    <mj-wrapper background-url="http://www.ericposas.com/images/whole.jpg">
+    <mj-wrapper background-size="600px" background-url="http://www.ericposas.com/images/whole-hd.jpg">
       <mj-section>
         <mj-column width="600px" padding-top="360px" padding-left="10px" >
           <mj-table>
@@ -51,6 +51,25 @@
               </td>
               <td colspan=2 style="padding-left:10px;font-size:11px;padding-top:55px;line-height:14px;">
                 No balance transfer fees. No annual fee. The added<br> convenience of mobile wallet and Visa Checkout.®
+              </td>
+            </tr>
+            <tr>
+              <td colspan=3 style="padding-top:132px;line-height:14px;padding-left:290px;font-size:11px;">
+                <a href="http://www.aacreditunion.org/" target="_blank" style="text-decoration:none;color:#000;">
+                  Click here to Log in at<br> AACreditUnion.org and <br>select “Apply for a Loan”
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan=1 style="">
+              </td>
+              <td colspan=1 style="padding-left:40px;font-size:10px;padding-top:30px;">
+                <a href="tel:+18005330035" style="color:#000;text-decoration:none;">
+                  Call (800) 533-0035
+                </a>
+              </td>
+              <td colspan=1 style="padding-left:50px;font-size:10px;padding-top:30px;">
+                Stop by a branch near you
               </td>
             </tr>
           </mj-table>
